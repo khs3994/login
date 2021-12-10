@@ -21,7 +21,7 @@ class Signup : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.Signup.setOnClickListener {
-            Log.d("sss","click")
+            Log.d("signup","click")
             singUp(binding.Signupem.text.toString(),binding.Signuppw.text.toString())
         }
     }
